@@ -15,10 +15,10 @@ except OSError as error:
     print(error)
 
 #Twitter API for getting the data
-access_token = "958716870890319872-WajrAitlXmIbxP0QVfmVieIaJk6ZktS"
-access_token_secret = "lBtni8TfYcYqFIL9Mhp9RtmmM3QorUq2t9IDJQGAajTS2"
-api_key = "DSaamoVhWcE972jRrm5l4GaYE"
-api_secret = "m7yLJ00fWzcmBAFigeM73Y4y5XEnYpaJmgCXoFajleeAFZS07g"
+access_token = ""
+access_token_secret = ""
+api_key = ""
+api_secret = ""
 
 r = requests.post('https://api.twitter.com/oauth2/token?grant_type=client_credentials', auth=(api_key,api_secret))
 r="AAAAAAAAAAAAAAAAAAAAAM8gPwEAAAAAu89TzADT8Q4PHZ2AyBxIgQMn9OM%3DvqthN4Lg0jOhFEJ2XtHhCUc7ca2YKsZGGTHgtfmnwpFjVHP05Y"
